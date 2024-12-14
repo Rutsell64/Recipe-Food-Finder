@@ -1,0 +1,385 @@
+.Profile {
+    background-color:rgb(243, 201, 145);
+    padding-top: 25vw;
+    padding-bottom: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+    word-break:break-word;
+
+}
+.ProfileLogoBorder{
+    text-align: center;
+}
+.Profile img{
+    width: 30vw;
+}
+.Profile h1{
+    text-align: center;
+    margin-top: 5vw;
+    font-size: 8vw;
+    margin-bottom: 11vw;
+}
+.Profile hr{
+    width: 90vw;
+    border: solid;
+    border: 1px solid rgb(158, 34, 34);
+}
+
+.ProfileDetails{
+    text-align: left;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 11vw;
+    box-sizing: border-box;
+}
+.ProfileDetails p {
+    font-size: 4.2vw;
+    margin-bottom: 6vw;
+}
+
+.EditButtonBorder{
+    text-align: center;
+    margin-top: 10vw;
+}
+
+.EditButtonBorder button{
+    font-size:4.2vw;
+    padding: 2.5vw 2vw;
+    border-radius: 0vw;
+    background-color: rgb(236, 219, 195);
+    color: black;
+    font-weight: bold;
+    border: solid 0.1vw;
+    border-radius: 1vw;
+}
+
+.EditForm{
+    width: 100vw;
+    box-sizing: border-box;
+}
+.EditForm h2{
+    font-size: 6vw;
+    margin-bottom: 8vw;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vw;
+}
+.EditForm label{
+    font-size: 4.2vw;
+    font-weight:bold;
+    margin-bottom: 2vw;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.EditForm input{
+    font-size: 4.2vw;
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4vw;
+    padding: 2vw;
+}
+.EditFullNameBorder,.EditEmailBorder,.EditPhoneNumberBorder,.EditPasswordBorder{
+    display: flex;
+    flex-direction: column;
+}
+.SaveCancelBorder{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6vw;
+}
+.SaveButton button{
+    font-size:4.2vw;
+    padding: 2vw 4vw;
+    border-radius: 0vw;
+    background-color: rgb(236, 219, 195);
+    color: black;
+    border-radius: 1vw;
+}
+.CancelButton button{
+    font-size:4.2vw;
+    padding: 2vw 2.5vw;
+    border-radius: 0vw;
+    background-color: rgb(236, 219, 195);
+    color: black;
+    border-radius: 1vw;
+}
+@media (min-width: 481px) and (max-width: 768px)  {
+    .Profile {
+        padding-top: 15vw;
+        padding-bottom: 15vw;
+    }
+    .Profile img{
+        width: 20vw;
+    }
+    .Profile h1{
+        margin-top: 4vw;
+        font-size: 5.5vw;
+        margin-bottom: 9vw;
+    }
+    .Profile hr{
+        width: 80vw;
+    }
+    .ProfileDetails{
+        width: 65vw;
+        margin-top: 9vw;
+    }
+    .ProfileDetails p {
+        font-size: 2.4vw;
+        margin-bottom: 5vw;
+    }
+    .EditButtonBorder{
+        margin-top: 9vw;
+    }
+    .EditButtonBorder button{
+        font-size:2.4vw;
+        padding: 2vw 2vw;
+    }
+    .EditForm h2{
+        font-size: 3.5vw;
+        margin-bottom: 5vw;
+        width: 65vw;
+        margin-top: 9vw;
+    }
+    .EditForm label{
+        font-size: 2.4vw;
+        width: 65vw;
+    }
+    .EditForm input{
+        font-size: 2.4vw;
+        width: 61.5vw;
+        margin-bottom: 4vw;
+        padding: 1.5vw;
+    }
+    .SaveCancelBorder{
+        margin-top: 5vw;
+    }
+    .SaveButton button{
+        font-size:2.4vw;
+        padding: 1.5vw 3vw;
+        border-radius: 1vw;
+    }
+    .CancelButton button{
+        font-size:2.4vw;
+        padding: 1.5vw 2vw;
+    }
+}
+
+/* Small Screens and Laptops (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .Profile {
+        padding-top: 8vw;
+        padding-bottom: 8vw;
+        width: 85vw;
+        border-radius: 5vw;
+        margin-top:7vw;
+        margin-bottom: 7vw;
+        overflow: hidden;
+    }
+    .Profile img{
+        width: 16vw;
+    }
+    .Profile h1{
+        margin-top: 3vw;
+        font-size: 4.2vw;
+        margin-bottom: 7vw;
+    }
+    .Profile hr{
+        width: 70vw;
+    }
+    .ProfileDetails{
+        width: 60vw;
+        margin-top: 7vw;
+    }
+    .ProfileDetails p {
+        font-size: 2vw;
+        margin-bottom: 4vw;
+    }
+    .EditButtonBorder{
+        margin-top: 7vw;
+    }
+    .EditButtonBorder button{
+        font-size:2vw;
+        padding: 1.5vw 1.5vw;
+    }
+    .EditForm{
+        width:85vw;
+    }
+    .EditForm h2{
+        font-size: 2.7vw;
+        margin-bottom: 3vw;
+        width: 60vw;
+        margin-top: 7vw;
+    }
+    .EditForm label{
+        font-size: 2vw;
+        width: 60vw;
+    }
+    .EditForm input{
+        font-size: 2vw;
+        width: 57vw;
+        margin-bottom: 3vw;
+        padding: 1.2vw;
+    }
+    .SaveCancelBorder{
+        margin-top: 3vw;
+        width: 60vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .SaveButton button{
+        font-size:2vw;
+        padding: 1vw 2.5vw;
+    }
+    .CancelButton button{
+        font-size:2vw;
+        padding: 1vw 1.5vw;
+    }
+}
+
+/* Desktops and Large Screens (1025px - 1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .Profile {
+        padding-top: 6vw;
+        padding-bottom: 6vw;
+        width: 55vw;
+        margin-top:7vw;
+        margin-bottom: 7vw;
+        overflow: hidden;
+        border-radius: 5vw;
+    }
+    .Profile img{
+        width: 10vw;
+    }
+    .Profile h1{
+        margin-top: 1.5vw;
+        font-size: 3.65vw;
+        margin-bottom: 3vw;
+    }
+    .Profile hr{
+        width: 45vw;
+    }
+    .ProfileDetails{
+        width: 37vw;
+        margin-top: 3vw;
+    }
+    .ProfileDetails p {
+        font-size: 1.42vw;
+        margin-bottom: 2.5vw;
+    }
+    .EditButtonBorder{
+        margin-top: 3vw;
+    }
+    .EditButtonBorder button{
+        font-size:1.42vw;
+        padding: 1vw 1vw;
+    }
+    .EditForm{
+        width:55vw;
+    }
+    .EditForm h2{
+        font-size: 2.1vw;
+        margin-bottom: 1vw;
+        width: 37vw;
+        margin-top: 3vw;
+    }
+    .EditForm label{
+        font-size: 1.42vw;
+        width: 37vw;
+    }
+    .EditForm input{
+        font-size: 1.42vw;
+        width: 35.5vw;
+        margin-bottom: 1.5vw;
+        padding: 0.8vw;
+    }
+    .SaveCancelBorder{
+        margin-top: 2vw;
+        width: 40vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .SaveButton button{
+        font-size:1.42vw;
+        padding: 1vw 1.5vw;
+    }
+    .CancelButton button{
+        font-size:1.42vw;
+        padding: 1vw 1vw;
+    }
+}
+
+/* Extra Large Screens and TVs (1201px and above) */
+@media (min-width: 1201px) {
+    .Profile {
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+        width: 50vw;
+        margin-top:6.5vw;
+        margin-bottom: 6.5vw;
+        overflow: hidden;
+        border-radius: 5vw;
+    }
+    .Profile img{
+        width: 8vw;
+    }
+    .Profile h1{
+        margin-top: 1.5vw;
+        font-size: 2.2vw;
+        margin-bottom: 3vw;
+    }
+    .Profile hr{
+        width: 40vw;
+    }
+    .ProfileDetails{
+        width: 33vw;
+        margin-top: 3vw;
+    }
+    .ProfileDetails p {
+        font-size: 0.94vw;
+        margin-bottom: 2.5vw;
+    }
+    .EditButtonBorder{
+        margin-top: 3vw;
+    }
+    .EditButtonBorder button{
+        font-size:0.94vw;
+        padding: 1vw 1vw;
+    }
+    .EditForm{
+        width:50vw;
+    }
+    .EditForm h2{
+        font-size: 1.316vw;
+        margin-bottom: 1vw;
+        width: 33vw;
+        margin-top: 3vw;
+    }
+    .EditForm label{
+        font-size: 0.94vw;
+        width: 33vw;
+    }
+    .EditForm input{
+        font-size: 0.94vw;
+        width: 30.5vw;
+        margin-bottom: 1.5vw;
+        padding: 0.8vw;
+    }
+    .SaveCancelBorder{
+        margin-top: 2vw;
+        width: 35vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .SaveButton button{
+        font-size:0.94vw;
+        padding: 1vw 1.5vw;
+    }
+    .CancelButton button{
+        font-size:0.94vw;
+        padding: 1vw 1vw;
+    }
+}

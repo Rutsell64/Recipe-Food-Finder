@@ -1,0 +1,226 @@
+.LoginBorder{
+    text-align: center;
+    margin-top: 25vw;
+    margin-bottom: 25vw;
+}
+.LoginBorder img{
+    width: 40vw;
+}
+.LoginBorder h1{
+    font-size: 8vw;
+    margin-top: 0%;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    line-height: 9vw;
+   
+}
+.LoginBorder p{
+    font-size: 4.2vw;
+    font-family: 'Roboto', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8vw;
+    width: 80vw;
+}
+.FormGroup{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4vw; 
+}
+.LoginBorder label{
+    font-weight: bold;
+    margin-bottom: 1vw;
+    font-size: 4.2vw;
+}
+.LoginBorder input{
+    padding: 2vw;
+    font-size: 4.2vw;
+}
+.LoginBorder button{
+    font-size: 4.2vw;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    padding: 3vw 10vw;
+    background-color: black;
+    color: white;
+}
+.LoginBorder a, .LoginBorder a:visited{
+   font-size: 4.2vw;
+   text-decoration: none;
+   color: blue;
+}
+ .LoginBorder a:hover, .LoginBorder a:active{
+    color: darkblue; /* Optional: Change the color when hovered */
+    text-decoration: underline; /* Optional: Add underline on hover */
+    
+ }
+
+@media (min-width: 481px) and (max-width: 768px)  {
+    .LoginBorder{
+        margin-top: 20vw;
+        margin-bottom: 20vw;
+    }
+    .LoginBorder img{
+        width: 25vw;
+    }
+    .LoginBorder h1{
+        font-size: 5.5vw;
+        margin-bottom: 2vw;
+    }
+    .LoginBorder p{
+        font-size: 2.4vw;
+        margin-bottom: 6vw;
+        margin-top: 0vw;
+    }
+    .FormGroup{
+        width: 65vw;
+        margin-bottom: 3vw;
+    }
+    .LoginBorder label{
+        margin-bottom: 1vw;
+        font-size: 2.4vw;
+    }
+    .LoginpBorder input{
+        padding: 1.5vw;
+        font-size: 2.4vw;
+    }
+    .LoginBorder button{
+        font-size: 2.4vw;
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+        padding: 1.5vw 5vw;
+    }
+    .LoginBorder a, .LoginBorder a:visited{
+       font-size: 2.4vw;
+    }
+}
+
+/* Small Screens and Laptops (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .LoginBorder{
+        margin-top: 15vw;
+        margin-bottom: 15vw;
+    }
+    .LoginBorder img{
+        width: 16vw;
+    }
+    .LoginBorder h1{
+        font-size: 4.20vw;
+        margin-bottom: 0vw;
+    }
+    .LoginBorder p{
+        font-size: 2vw;
+        margin-bottom: 4vw;
+        margin-top: 0vw;
+    }
+    .FormGroup{
+        width: 50vw;
+        margin-bottom: 2vw;
+    }
+    .LoginBorder label{
+        margin-bottom: 1vw;
+        font-size: 2vw;
+    }
+    .LoginBorder input{
+        padding: 1.3vw;
+        font-size: 2vw;
+    }
+    .LoginBorder button{
+        font-size: 2vw;
+        margin-top: 1.5vw;
+        margin-bottom: 3vw;
+        padding: 1.2vw 4vw;
+    }
+    .LoginBorder a, .LoginBorder a:visited{
+       font-size: 2vw;
+    }
+}
+
+/* Desktops and Large Screens (1025px - 1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .LoginBorder{
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+    }
+    .LoginBorder img{
+        width: 13vw;
+    }
+    .LoginBorder h1{
+        font-size: 3.65vw;
+        margin-bottom: 0vw;
+    }
+    .LoginBorder p{
+        font-size: 1.42vw;
+        margin-bottom: 3vw;
+        margin-top: 0vw;
+    }
+    .FormGroup{
+        width: 42.5vw;
+        margin-bottom: 2vw;
+    }
+    .LoginBorder label{
+        margin-bottom: 1vw;
+        font-size: 1.42vw;
+    }
+    .LoginBorder input{
+        padding: 1vw;
+        font-size: 1.42vw;
+    }
+    .LoginBorder button{
+        font-size: 1.42vw;
+        margin-top: 1vw;
+        margin-bottom: 2.5vw;
+        padding: 1vw 3vw;
+    }
+    .LoginBorder a, .LoginBorder a:visited{
+       font-size: 1.42vw;
+    }
+}
+
+/* Extra Large Screens and TVs (1201px and above) */
+@media (min-width: 1201px) {
+    .LoginBorder{
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    .LoginBorder img{
+        width: 10vw;
+    }
+    .LoginBorder h1{
+        font-size: 2.20vw;
+        margin-bottom: 0vw;
+        line-height:3;
+    }
+    .LoginBorder p{
+        font-size: 0.94vw;
+        margin-bottom: 2.5vw;
+        margin-top: 0vw;
+    }
+    .FormGroup{
+        width: 33vw;
+        margin-bottom: 2vw;
+    }
+    .LoginBorder label{
+        margin-bottom: 1vw;
+        font-size: 0.94vw;
+    }
+    .LoginBorder input{
+        padding: 1vw;
+        font-size: 0.94vw;
+    }
+    .LoginBorder button{
+        font-size: 0.94vw;
+        margin-top: 0vw;
+        margin-bottom: 2vw;
+        padding: 0.8vw 2.5vw;
+    }
+    .LoginBorder a, .LoginBorder a:visited{
+       font-size: 0.94vw;
+    }
+}

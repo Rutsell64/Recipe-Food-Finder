@@ -1,0 +1,439 @@
+.DashboardPage{
+    padding-top: 10vw;
+    padding-bottom: 15vw;
+}
+.DashboardPage h1 {
+    text-align: center;
+    margin-bottom: 7vw;
+    font-size: 8vw;
+}
+.IntroBorder p{
+    margin-bottom: 15vw;
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 4.2vw;
+}
+
+.NoSavedRecipe{
+    text-align: center;
+    margin-top: 10vw;
+    margin-bottom: 15vw;
+}
+.NoSavedRecipe p{
+    font-weight: bold;
+    font-size: 4.2vw;
+}
+.RecipeCard{
+    text-align: center;
+    margin-bottom: 10vw;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: rgb(250, 242, 242);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    width: 90vw;
+    padding-top: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.RecipeCard:hover {
+    transform: scale(1.05);
+}
+.RecipeCard img{
+    width: 80vw;
+    margin-bottom: 0vw;
+}
+.RecipeCard p{
+    font-size: 4.2vw;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.RecipeDetailsModal {
+    position: fixed; /* Sticks the modal to the viewport */
+    top: 0;
+    left: 0;
+    width: 100%; /* Covers the full width of the viewport */
+    height: 100%; /* Covers the full height of the viewport */
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Ensures it's above other content */
+    overflow-y: auto; /* Enables scrolling for long content */
+    border: solid 1px rgba(0, 0, 0, 0.2); /* Optional border */
+}
+.ModalDetails{
+    padding: 5vw;
+}
+.RecipeDetailsModal h2{
+    font-size: 6vw;
+    text-align: center;
+}
+.RecipeDetailsModal img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.RecipeDetailsModal h3{
+    font-size: 5vw;
+}
+.RecipeDetailsModal li{
+    margin-bottom: 3vw;
+    font-size: 4.2vw;
+}
+.Instructions{
+    font-size: 4.2vw;
+    line-height: 10vw;
+}
+.Instructions ol,.Instructions li{
+    line-height: 8vw;
+}
+.ModalButton{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vw;
+    margin-bottom: 7vw;
+}
+.UnsaveButton{
+    background-color: rgb(236, 219, 195);
+    color: black;
+    padding: 2vw 2vw;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 4.2vw;
+}
+.CloseButton {
+    background-color: rgb(236, 219, 195);
+    color: black;
+    padding: 2vw 4vw;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 4.2vw;
+}
+@media (min-width: 481px) and (max-width: 768px)  {
+    .DashboardPage{
+        padding-top: 8vw;
+        padding-bottom: 13vw;
+    }
+    .DashboardPage h1 {
+        margin-bottom: 6vw;
+        font-size: 5.5vw;
+    }
+    .IntroBorder p{
+        margin-bottom: 13vw;
+        width: 80vw;
+        font-size: 2.4vw;
+    }
+    .NoSavedRecipe{
+        margin-top: 8vw;
+        margin-bottom: 13vw;
+    }
+    .NoSavedRecipe p{
+        font-size: 2.4vw;
+    }
+    .RecipeCard{
+        margin-bottom: 5vw;
+        width: 80vw;
+        
+    }
+    .RecipeCard img{
+        width: 70vw;
+    }
+    .RecipeCard p{
+        font-size: 2.4vw;
+        margin-top: 3vw;
+        margin-bottom: 4vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+    .ModalDetails{
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+    .RecipeDetailsModal h2{
+        font-size: 3.5vw;
+    }
+    .RecipeDetailsModal img {
+        margin-bottom: 20px;
+    }
+    .RecipeDetailsModal h3{
+        font-size: 3vw;
+    }
+    .RecipeDetailsModal li{
+        margin-bottom: 2.5vw;
+        font-size: 2.4vw;
+    }
+    .Instructions{
+        font-size: 2.4vw;
+        line-height: 6.5vw;
+    }
+    .Instructions ol,.Instructions li{
+        line-height: 4.5vw;
+    }
+    .ModalButton{
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    .UnsaveButton{
+        padding: 2vw 2vw;
+        font-size: 2.4vw;
+    }
+    .CloseButton {
+        padding: 2vw 3vw;
+        font-size: 2.4vw;
+    }
+}
+
+/* Small Screens and Laptops (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .DashboardPage{
+        padding-top: 6vw;
+        padding-bottom: 4vw;
+    }
+    .DashboardPage h1 {
+        margin-bottom: 5vw;
+        font-size: 4.2vw;
+    }
+    .IntroBorder p{
+        margin-bottom: 11vw;
+        width: 70vw;
+        font-size: 2vw;
+    }
+    .NoSavedRecipe{
+        margin-top: 6vw;
+        margin-bottom: 11vw;
+    }
+    .NoSavedRecipe p{
+        font-size: 2vw;
+    }
+    .RecipesGrid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr)); 
+        padding-left: 2vw;
+        padding-right: 2vw;
+        gap: 2vw; 
+        box-sizing: border-box;
+    }
+    .RecipeCard{
+        margin-bottom: 5vw;
+        background-color: rgb(250, 242, 242);
+        width: 30vw;
+        padding-top: 3vw;
+    }
+    .RecipeCard img{
+        width: 25vw;
+    }
+    .RecipeCard p{
+        font-size: 2vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+    .ModalDetails{
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
+    .RecipeDetailsModal h2{
+        font-size: 2.7vw;
+    }
+    .RecipeDetailsModal img {
+        margin-bottom: 20px;
+    }
+    .RecipeDetailsModal h3{
+        font-size: 2.4vw;
+    }
+    .RecipeDetailsModal li{
+        margin-bottom: 2vw;
+        font-size: 2vw;
+    }
+    .Instructions{
+        font-size: 2vw;
+        line-height: 5.5vw;
+    }
+    .Instructions ol,.Instructions li{
+        line-height: 3.5vw;
+    }
+    .ModalButton{
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+    }
+    .UnsaveButton{
+        padding: 1.2vw 1.2vw;
+        font-size: 2vw;
+    }
+    .CloseButton {
+        padding: 1.2vw 2vw;
+        font-size: 2vw;
+    }
+}
+
+/* Desktops and Large Screens (1025px - 1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .DashboardPage{
+        padding-top: 4vw;
+        padding-bottom: 2vw;
+    }
+    .DashboardPage h1 {
+        margin-bottom: 3vw;
+        font-size: 3.65vw;
+    }
+    .IntroBorder p{
+        margin-bottom: 8vw;
+        width: 58vw;
+        font-size: 1.42vw;
+    }
+    .NoSavedRecipe{
+        margin-top: 4vw;
+        margin-bottom: 9vw;
+    }
+    .NoSavedRecipe p{
+        font-size: 1.42vw;
+    }
+    .RecipesGrid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(22vw, 1fr)); 
+        padding-left: 2vw;
+        padding-right: 2vw;
+        gap: 2vw; 
+        box-sizing: border-box;
+    }
+    .RecipeCard{
+        margin-bottom: 3vw;
+        background-color: rgb(250, 242, 242);
+        width: 22vw;
+        padding-top: 2vw;
+    }
+    .RecipeCard img{
+        width: 18vw;
+    }
+    .RecipeCard p{
+        font-size: 1.42vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        padding-left: 1.5vw;
+        padding-right: 1.5vw;
+    }
+    .ModalDetails{
+        padding-left: 23vw;
+        padding-right: 23vw;
+    }
+    .RecipeDetailsModal h2{
+        font-size: 2.1vw;
+    }
+    .RecipeDetailsModal img {
+        margin-bottom: 20px;
+    }
+    .RecipeDetailsModal h3{
+        font-size: 1.8vw;
+    }
+    .RecipeDetailsModal li{
+        margin-bottom: 1.8vw;
+        font-size: 1.42vw;
+    }
+    .Instructions{
+        font-size: 1.42vw;
+        line-height: 4.5vw;
+    }
+    .Instructions ol,.Instructions li{
+        line-height: 2.5vw;
+    }
+    .ModalButton{
+        margin-top: 3.5vw;
+        margin-bottom: 3.5vw;
+    }
+    .UnsaveButton{
+        padding: 1vw 1.2vw;
+        font-size: 1.42vw;
+    }
+    .CloseButton {
+        padding: 1vw 2vw;
+        font-size: 1.42vw;
+    }
+}
+
+/* Extra Large Screens and TVs (1201px and above) */
+@media (min-width: 1201px) {
+    .DashboardPage{
+        padding-top: 2vw;
+        padding-bottom: 1vw;
+    }
+    .DashboardPage h1 {
+        margin-bottom: 2vw;
+        font-size: 2.2vw;
+    }
+    .IntroBorder p{
+        margin-bottom: 4vw;
+        width: 40vw;
+        font-size: 0.94vw;
+    }
+    .NoSavedRecipe{
+        margin-top: 2vw;
+        margin-bottom: 7vw;
+    }
+    .NoSavedRecipe p{
+        font-size: 0.94vw;
+    }
+    .RecipesGrid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(17vw, 1fr)); 
+        padding-left: 2vw;
+        padding-right: 2vw;
+        gap: 2vw; 
+        box-sizing: border-box;
+    }
+    .RecipeCard{
+        margin-bottom: 2vw;
+        background-color: rgb(250, 242, 242);
+        width: 17vw;
+        padding-top: 1vw;
+    }
+    .RecipeCard img{
+        width: 15vw;
+    }
+    .RecipeCard p{
+        font-size: 0.94vw;
+        margin-top: 0.5vw;
+        margin-bottom: 1vw;
+        padding-left: 0.7vw;
+        padding-right: 0.7vw;
+    }
+    .ModalDetails{
+        padding-left: 30vw;
+        padding-right: 30vw;
+    }
+    .RecipeDetailsModal h2{
+        font-size: 1.316vw;
+    }
+    .RecipeDetailsModal img {
+        margin-bottom: 20px;
+    }
+    .RecipeDetailsModal h3{
+        font-size: 1.1vw;
+    }
+    .RecipeDetailsModal li{
+        margin-bottom: 1.2vw;
+        font-size: 0.94vw;
+    }
+    .Instructions{
+        font-size: 0.94vw;
+        line-height: 3vw;
+    }
+    .Instructions ol,.Instructions li{
+        line-height: 1.5vw;
+    }
+    .ModalButton{
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+    .UnsaveButton{
+        padding: 0.8vw 1.2vw;
+        font-size: 0.94vw;
+    }
+    .CloseButton {
+        padding: 0.8vw 1.8vw;
+        font-size: 0.94vw;
+    }
+}

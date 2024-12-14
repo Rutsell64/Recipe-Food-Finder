@@ -1,0 +1,80 @@
+.PrivacyPolicy {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.PrivacyPolicy h1, .PrivacyPolicy h2 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.PrivacyPolicy ul {
+    margin-left: 20px;
+    list-style: disc;
+}
+
+.PrivacyPolicy h1{
+    font-size: 8vw;
+}
+.PrivacyPolicy h2{
+    font-size: 6vw;
+}
+.PrivacyPolicy p, .PrivacyPolicy li{
+    font-size: 4.2vw;
+}
+
+
+@media (min-width: 481px) and (max-width: 768px)  {
+    .PrivacyPolicy h1{
+        font-size: 5.5vw;
+    }
+    .PrivacyPolicy h2{
+        font-size: 3.5vw;
+    }
+    .PrivacyPolicy p, .PrivacyPolicy li{
+        font-size: 2.4vw;
+    }
+}
+
+/* Small Screens and Laptops (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .PrivacyPolicy h1{
+        font-size: 4.2vw;
+    }
+    .PrivacyPolicy h2{
+        font-size: 2.7vw;
+    }
+    .PrivacyPolicy p, .PrivacyPolicy li{
+        font-size: 2vw;
+    }
+}
+
+/* Desktops and Large Screens (1025px - 1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .PrivacyPolicy h1{
+        font-size: 3.65vw;
+    }
+    .PrivacyPolicy h2{
+        font-size: 2.1vw;
+    }
+    .PrivacyPolicy p, .PrivacyPolicy li{
+        font-size: 1.42vw;
+    }
+}
+
+/* Extra Large Screens and TVs (1201px and above) */
+@media (min-width: 1201px) {
+    .PrivacyPolicy h1{
+        font-size: 2.20vw;
+    }
+    .PrivacyPolicy h2{
+        font-size: 1.316vw;
+    }
+    .PrivacyPolicy p, .PrivacyPolicy li{
+        font-size: 0.94vw;
+    }
+}

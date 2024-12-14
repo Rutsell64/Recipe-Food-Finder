@@ -1,0 +1,589 @@
+.HeroBanner{
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    display: flex; /* Enables Flexbox */
+    justify-content: center;
+}
+
+.HeroBanner img{
+    width:165%;
+    height:auto;
+}
+
+.HeroBanner p{
+    position: absolute;
+    color: white;
+    font-size: 6.5vw;
+    font-family: 'Dancing Script', cursive;
+    z-index: 1; /* Make sure the text is above the image but not needed really*/
+    text-align: center; 
+}
+
+.HeroBanner a{
+    position: absolute;
+    text-decoration: none;
+    z-index: 1;
+    padding: 0.5rem;
+    background-color: white; /* Gold */
+    color: black; /* Black text for high contrast */
+    margin-top: 40%;
+    font-size: 3.5vw;
+    font-family: 'Poppins', sans-serif; /* Modern, clean font */
+    
+}
+/* Hover effect */
+.HeroBanner a:hover {
+    background-color: black;
+    color:white;
+}
+
+.Section1Border{
+  overflow: hidden;
+  background-color: rgb(248, 234, 234);
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vw;
+  text-align: center;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+
+.Section1Border h1{
+    text-align: center;
+    font-size: 8vw;
+}
+
+.Section1Border img{
+    width: 55vw;   
+}
+
+.Section1Border p{
+    font-size: 4.2vw;
+    text-align: left;
+    color:grey;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.Section2Border{
+    overflow: hidden;
+    text-align: center;
+    background-color:rgb(238, 199, 149);
+    margin-top: 10vw;
+    padding-top: 8vw;
+}
+
+.Section2BorderContent{
+    margin-bottom: 15vw;
+}
+
+.Section2Border h1{
+    font-size: 7.5vw;
+    margin-bottom: 6vw;
+}
+
+.Section2Border h2{
+    font-size: 6vw;
+}
+
+.Section2Border img{
+    width: 50vw;
+}
+
+.Section2Border p{
+    font-size: 4.2vw;
+    padding-left:12vw;
+    padding-right: 12vw;
+}
+
+.Section3Border{
+    text-align: center;
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+}
+
+.Section3Border h1{
+    font-size: 8vw;
+}
+
+.HowItWorksContent{
+    display: inline-block;
+    text-align: left;
+    width: 80vw;
+}
+
+.HowItWorksText1 {
+
+    margin-bottom: 8vw;
+}
+.HowItWorksText2 {
+    margin-bottom: 8vw;
+}
+
+.HowItWorksContent strong{
+    color: #e67e22; /* Highlight the section titles */
+    font-weight: bold;
+}
+
+.HowItWorksContent p{
+    font-size: 4.2vw;
+}
+
+
+
+@media (min-width: 481px) and (max-width: 768px)  {
+/*Adjust the height to 700 in the web browser but just chnage the width*/
+    
+    .HeroBanner{
+        height: 60vw;
+    }
+
+    .HeroBanner p{
+        font-size: 4vw;
+    }
+    
+    .HeroBanner a{
+        padding: 0.3rem;
+        margin-top: 25vw;
+        font-size: 2vw;
+    }
+
+    .HeroBanner img{
+        width:165%;
+        height:auto;
+    }
+
+    .Section1Border{
+        padding-top: 1vw;
+        padding-bottom: 2vw;
+        margin-top: 5vw;
+        width: 60vw;
+    }
+       
+    .Section1Border h1{
+        font-size: 5.5vw;
+    }
+      
+    .Section1Border img{
+        width: 30vw;   
+    }
+      
+    .Section1Border p{
+        font-size: 2.4vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+    }
+
+    .Section2Border{
+        margin-top: 6vw;
+        padding-top: 2vw;
+    }
+
+    .Section2BorderContent{
+        margin-bottom: 6vw;
+    }
+
+    .Section2Border h1{
+        font-size: 5.5vw;
+        margin-bottom: 4vw;
+    }
+
+    .Section2Border h2{
+        font-size: 3.5vw;
+    }
+
+    .Section2Border img{
+        width: 35vw;
+    }
+    
+    .Section2Border p{
+        font-size: 2.4vw;
+    }
+
+    .Section3Border{
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    
+    .Section3Border h1{
+        font-size: 5.5vw;
+    }
+    
+    .HowItWorksContent{
+        width: 50vw;
+
+    }
+
+    .HowItWorksText1 {
+        margin-bottom: 5vw;
+    }
+
+    .HowItWorksText2 {
+        margin-bottom: 5vw;
+    }
+    
+    .HowItWorksContent p{
+        font-size: 2.4vw;
+    }
+
+}
+
+/* Small Screens and Laptops (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .HeroBanner{
+        height: 50vw;
+    }
+
+    .HeroBanner p{
+        font-size: 3.1vw;
+    }
+    
+    .HeroBanner a{
+        padding: 0.3rem;
+        margin-top: 20vw;
+        font-size: 1.3vw; 
+    }
+
+    .HeroBanner img{
+        width:165%;
+        height:auto;
+    }
+
+    .Section1Border{
+        display: flex;
+        position: relative;
+        width: 90vw;
+        margin-top: 5vw;
+        padding-top: 5vw;
+        padding-bottom: 4vw;
+    }
+
+    .Section1Border h1{
+        font-size: 4.20vw;
+        position: absolute;
+        margin-top: 4vw;
+        margin-left: 49vw;
+    }
+      
+    .Section1ImageBorder{
+        width: 50vw;
+    }
+
+    .Section1Border img{
+        max-width: 70%; /* Image can shrink but not grow beyond container */
+        height: auto; /* Maintain aspect ratio */
+
+    }
+
+    .Section1TextBorder{
+        width: 50vw;
+    }
+      
+    .Section1Border p{
+        font-size: 2vw;
+        margin-top:12vw;
+        padding-left: 1vw;
+        padding-right: 3vw;
+    }
+
+    .Section2Border{
+        margin-top: 6vw;
+        padding-top: 1vw;
+    }
+
+    .Section2Content{
+        display: flex;
+    }
+
+    .Section2BorderContent{
+        margin-bottom: 3vw;
+        width:100vw;
+    }
+
+    .Section2Border h1{
+        font-size: 4.20vw;
+        margin-bottom: 2vw;
+    }
+
+    .Section2Border h2{
+        font-size: 2.7vw;
+    }
+
+    .Section2Border img{
+        width: 25vw;
+    }
+    
+    .Section2Border p{
+        font-size: 2vw;
+        padding-left:3vw;
+        padding-right: 3vw;
+    }
+
+    .Section3Border{
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+    }
+    
+    .Section3Border h1{
+        font-size: 4.20vw;
+    }
+    
+    .HowItWorksContent{
+        width: 45vw;
+    }
+
+    .HowItWorksText1 {
+        margin-bottom: 3vw;
+    }
+
+    .HowItWorksText2 {
+        margin-bottom: 3vw;
+    }
+
+    .HowItWorksContent p{
+        font-size: 2vw;
+    }
+
+}
+
+/* Desktops and Large Screens (1025px - 1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+    .HeroBanner{
+        height: 45vw;
+    }
+
+    .HeroBanner p{
+        margin-top: 6vw;
+        font-size: 2.5vw;
+    }
+    
+    .HeroBanner a{
+        padding: 0.3rem;
+        margin-top: 18vw;
+        font-size: 1.3vw; 
+    }
+
+    .HeroBanner img{
+        width:100vw;
+        height:auto;
+    }
+
+    .Section1Border{
+        display: flex;
+        position: relative;
+        width: 78vw;
+        margin-top: 4vw;
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+       
+    }
+
+    .Section1Border h1{
+        font-size: 3.65vw;
+        position: absolute;
+        margin-top: 4vw;
+        margin-left: 43vw;
+    }
+      
+    .Section1ImageBorder{
+        width: 39vw;
+    }
+
+    .Section1Border img{
+        max-width: 60%; /* Image can shrink but not grow beyond container */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .Section1TextBorder{
+        width: 39vw;
+    }
+    
+    .Section1Border p{
+        font-size: 1.42vw;
+        margin-top: 11vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+    .Section2Border{
+        margin-top: 4.5vw;
+        padding-top: 1vw;
+    }
+
+    .Section2Content{
+        display: flex;
+    }
+
+    .Section2BorderContent{
+        margin-bottom: 3vw;
+        width:100vw;
+    }
+
+    .Section2Border h1{
+        font-size: 3.65vw;
+        margin-bottom: 2vw;
+    }
+
+    .Section2Border h2{
+        font-size: 2.10vw;
+    }
+
+    .Section2Border img{
+        width: 18vw;
+    }
+    
+    .Section2Border p{
+        font-size: 1.42vw;
+        padding-left:6vw;
+        padding-right: 6vw;
+    }
+
+    .Section3Border{
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+    
+    .Section3Border h1{
+        font-size: 3.65vw;
+        margin-bottom: 1vw;
+    }
+    
+    .HowItWorksContent{
+        width: 33vw;
+    }
+
+    .HowItWorksText1 {
+        margin-bottom: 2.5vw;
+    }
+
+    .HowItWorksText2 {
+        margin-bottom: 2.5vw;
+    }
+    
+    .HowItWorksContent p{
+        font-size: 1.42vw;
+    }
+
+}
+
+/* Extra Large Screens and TVs (1201px and above) */
+@media (min-width: 1201px) {
+    .HeroBanner{
+        height: 45vw;
+    }
+
+    .HeroBanner p{
+        margin-top: 6vw;
+        font-size: 2.5vw;
+    }
+    
+    .HeroBanner a{
+        padding: 0.3rem;
+        margin-top: 18vw;
+        font-size: 1.3vw; 
+    }
+
+    .HeroBanner img{
+        width:100vw;
+        height:auto;
+    }
+
+    .Section1Border{
+        display: flex;
+        position: relative;
+        width: 60vw;
+        margin-top: 4vw;
+        padding-top: 5vw;
+        padding-bottom: 4vw;
+    }
+
+    .Section1Border h1{
+        font-size: 2.20vw;
+        position: absolute;
+        margin-left: 36vw;
+        margin-top: 10%;
+    }
+      
+    .Section1ImageBorder{
+        width: 30vw;
+    }
+
+    .Section1Border img{
+        max-width: 60%; /* Image can shrink but not grow beyond container */
+        height: auto; /* Maintain aspect ratio */
+
+    }
+
+    .Section1TextBorder{
+        width: 30vw;
+    }
+
+    .Section1Border p{
+        font-size: 0.94vw;
+        margin-top: 11vw;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    .Section2Border{
+        margin-top: 4.5vw;
+        padding-top: 1vw;
+    }
+
+    .Section2Content{
+        display: flex;
+    }
+
+    .Section2BorderContent{
+        margin-bottom: 3vw;
+        width:100vw;
+    }
+
+    .Section2Border h1{
+        font-size: 2.20vw;
+        margin-bottom: 2vw;
+    }
+
+    .Section2Border h2{
+        font-size: 1.316vw;
+    }
+
+    .Section2Border img{
+        width: 18vw;
+    }
+    
+    .Section2Border p{
+        font-size: 0.94vw;
+        padding-left:6vw;
+        padding-right: 6vw;
+    }
+
+    .Section3Border{
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+    
+    .Section3Border h1{
+        font-size: 2.20vw;
+    }
+    
+    .HowItWorksContent{
+        width: 28vw;
+    }
+
+    .HowItWorksText1 {
+        margin-bottom: 2.5vw;
+    }
+
+    .HowItWorksText2 {
+        margin-bottom: 2.5vw;
+    }
+    
+    .HowItWorksContent p{
+        font-size: 0.94vw;
+    }
+}

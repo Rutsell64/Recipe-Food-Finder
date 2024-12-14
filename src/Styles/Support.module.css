@@ -1,0 +1,555 @@
+.DetailsBorder{
+    background-color:#FFFFF0;
+
+}
+.DetailsBorderTitle{
+    background-color: rgb(248, 201, 143);
+    padding-top: 0.1vw;
+    padding-bottom: 0.1vw;
+}
+
+.DetailsBorderTitle h1{
+    font-size: 8vw;
+    text-align: center;
+    padding-left:10vw;
+    padding-right: 10vw;
+}
+.DetailsBorderInfo{
+    text-align: center;
+}
+
+.DetailsBorderInfo img{
+    width: 40vw;
+}
+
+.DetailsBorderInfo h2{
+    font-size: 6vw;
+    margin-top: 0vw;
+}
+
+.DetailsRow1Sec1{
+    border-bottom: 1px solid black;
+    width: 80%; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4vw;
+    padding-bottom: 6vw;
+}
+.DetailsRow1Sec2{
+    border-bottom: 1px solid black;
+    width: 80%; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0vw;
+    padding-bottom: 4vw;
+}
+.DetailsRow2Sec1{
+    border-bottom: 1px solid black;
+    width: 80%; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+.DetailsRow2Sec2{
+    width: 80%; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3vw;
+    padding-bottom: 5vw;
+}
+.FormBorder{
+    background-color:#FFFFF0;
+    text-align: center;
+}
+.FormBorderTitle{
+    background-color: rgb(248, 201, 143);
+    padding-top: 0.1vw;
+    padding-bottom: 0.1vw;
+}
+.FormBorderTitle h1{
+    font-size: 8vw;
+   
+}
+.FormRow1,.FormRow2{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 8vw;
+}
+.FormRow1Sec1 input, .FormRow1Sec2 input, .FormRow2Sec1 input, .FormRow2Sec2 input{
+    padding: 2vw;
+    font-size: 4.2vw;
+    width:35vw;
+}
+.FormRow3, .FormRow4{
+    margin-top:8vw;
+    
+}
+.FormRow3Sec1 textarea{
+    padding: 2vw;
+    font-size: 4.2vw;
+    width: 80vw;
+    height:50vw;
+}
+.FormRow4Sec1 button{
+    padding: 2vw;
+    font-size: 4.2vw;
+    margin-bottom: 8vw;
+    border-radius: 10vw;
+    padding: 3vw 15vw;
+    background-color: rgb(236, 196, 148);
+    color: black;
+}
+.Modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 212, 169);
+    border: 1px solid #ddd;
+    border-radius: 10vw;
+    padding: 10vw;
+    width: 60vw;
+    height:70vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    
+}
+
+.ModalContent {
+    text-align: center;
+}
+.Modal h2{
+    font-size: 6vw;
+}
+
+.Modal p{
+    font-size: 4.2vw;
+}
+
+.Modal button {
+    margin-top: 1rem;
+    padding: 3vw 20vw;
+    background-color:#FFFFF0;
+    color: black;  
+    border: none;
+    border-radius: 10vw;
+    cursor: pointer;
+    font-size: 4.2vw;
+}
+/* Tablets and iPads (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .DetailsBorderTitle h1{
+        font-size: 5.5vw;
+    }
+    .DetailsBorderInfo img{
+        width: 30vw;
+    }
+    .DetailsBorderInfo h2{
+        font-size: 3.5vw;
+    }
+    .DetailsBorderInfo p{
+        font-size: 2.4vw;
+    }
+    
+    .DetailsRow1Sec1{
+        width: 70%; 
+    }
+    .DetailsRow1Sec2{
+        width: 70%; 
+    }
+    .DetailsRow2Sec1{
+        width: 70%; 
+    }
+    .DetailsRow2Sec2{
+        width: 70%; 
+    }
+    .FormBorderTitle h1{
+        font-size: 5.5vw;  
+    }
+    .FormRow1,.FormRow2{
+        margin-top: 6vw;
+    }
+    .FormRow1Sec1 input, .FormRow1Sec2 input, .FormRow2Sec1 input, .FormRow2Sec2 input{
+        font-size: 2.4vw;
+        width:35vw;
+    }
+    .FormRow3, .FormRow4{
+        margin-top:6vw;
+    }
+    .FormRow3Sec1 textarea{
+        font-size: 2.4vw;
+    }
+    .FormRow4Sec1 button{
+        font-size: 2.4vw;
+        margin-bottom: 6vw;
+        padding: 2vw 11vw;
+    }
+    .Modal {
+        padding: 0vw;
+        width: 60vw;
+        height:40vw;
+    }
+    
+    .ModalContent {
+        text-align: center;
+    }
+    .Modal h2{
+        font-size: 3.5vw;
+    }
+    
+    .Modal p{
+        font-size: 2.4vw;
+    }
+    
+    .Modal button {
+        padding: 2vw 10vw;
+        font-size: 2.5vw;
+    }
+}
+
+/* Small Screens and Laptops (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .DetailsBorderTitle h1{
+        font-size: 4.20vw;
+        padding-left:0vw;
+        padding-right: 0vw;
+    }
+    .DetailsBorderInfo img{
+        width: 20vw;
+    }
+    .DetailsBorderInfo h2{
+        font-size: 2.7vw;
+    }
+    .DetailsRow1{
+        display: flex;
+    }
+    .DetailsRow1Sec1{
+        width: 45vw;
+        padding-top: 1vw;
+        padding-bottom: 0vw;
+    }
+    .line1{
+        border: 1px solid black;
+        height:33vw;
+        margin-top: 3vw;
+    }
+    .DetailsRow1Sec2{
+        width: 45vw; 
+        padding-top: 0vw;
+        padding-bottom: 3vw;
+    }
+    .DetailsRow2{
+        display: flex;
+    }
+    .DetailsRow2Sec1{
+        width: 45vw; 
+        padding-top: 2vw;
+        padding-bottom: 0vw;
+        border-bottom: none;
+    }
+    .line2{
+        border: 1px solid black;
+        height:33vw;
+        margin-top: 2vw;
+        margin-bottom: 3vw;
+    }
+    .DetailsRow2Sec2{
+        width: 45vw; 
+        padding-top: 1vw;
+        padding-bottom: 0vw;
+        border-bottom: none;
+    }
+    .FormBorderTitle h1{
+        font-size: 4.20vw;
+    }
+    .FormRow1,.FormRow2{
+        margin-top: 6vw;
+    }
+    .FormRow1Sec1 input, .FormRow1Sec2 input, .FormRow2Sec1 input, .FormRow2Sec2 input{
+        padding: 2vw;
+        font-size: 2vw;
+        width:34vw;
+    }
+    .FormRow3, .FormRow4{
+        margin-top:6vw;
+    }
+    .FormRow3Sec1 textarea{
+        padding: 2vw;
+        font-size: 2vw;
+        width: 80vw;
+        height:30vw;
+    }
+    .FormRow4Sec1 button{
+        font-size: 2vw;
+        padding: 3vw 10vw;
+    }
+    .Modal {
+        width: 40vw;
+        height:8vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    
+    .Modal h2{
+        font-size: 2.7vw;
+    }
+    
+    .Modal p{
+        font-size: 2vw;
+    }
+    
+    .Modal button {
+        padding: 2vw 7vw;
+        font-size: 2vw;
+    }
+}
+
+/* Desktops and Large Screens (1025px - 1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .ContactUs{
+        display: flex;
+        justify-content:space-evenly;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    .DetailsBorder{
+        width: 45vw;
+    }
+    .DetailsBorderTitle h1{
+        font-size: 3vw;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        padding-left:0vw;
+        padding-right: 0vw;
+    }
+    .DetailsBorderInfo img{
+        width: 8vw;
+    }
+    .DetailsBorderInfo h2{
+        font-size: 2.10vw;
+    }
+     .DetailsBorderInfo p{
+        font-size: 1.42vw;
+    }
+    .DetailsRow1{
+        display: flex;
+    }
+    .DetailsRow1Sec1{
+        width: 20vw;
+        padding-top: 6vw;
+        padding-bottom: 0vw;
+    }
+    .line1{
+        border: 1px solid black;
+        height:26vw;
+        margin-top: 2vw;
+    }
+    .DetailsRow1Sec2{
+        width: 20vw; 
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    .DetailsRow2{
+        display: flex;
+    }
+    .DetailsRow2Sec1{
+        width: 45vw; 
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+        border-bottom: none;
+    }
+    .line2{
+        border: 1px solid black;
+        height:26.5vw;
+        margin-top: 1vw;
+        margin-bottom: 0vw;
+    }
+    .DetailsRow2Sec2{
+        width: 45vw; 
+        padding-top: 5vw;
+        padding-bottom: 0vw;
+        border-bottom: none;
+    }
+    .FormBorder{
+        width: 45vw;
+    }
+    .FormRow4{
+        padding-bottom: 0%;
+        margin-bottom: 0vw;
+        display: inline-block;
+        height:4vw;
+    }
+    .FormRow4Sec1{
+        height:4vw;
+    }
+    .FormBorderTitle h1{
+        font-size: 3.65vw;
+    }
+    .FormRow1,.FormRow2{
+        margin-top: 5vw;
+    }
+    .FormRow1Sec1 input, .FormRow1Sec2 input, .FormRow2Sec1 input, .FormRow2Sec2 input{
+        padding:0.5vw;
+        font-size: 1.42vw;
+        width:18vw;
+    }
+    .FormRow3, .FormRow4{
+        margin-top:5vw;
+    }
+    .FormRow3Sec1 textarea{
+        padding: 2vw;
+        font-size: 1.42vw;
+        width: 37vw;
+        height:20vw;
+    }
+    .FormRow4Sec1 button{
+        font-size: 1.42vw;
+        padding: 1vw 5vw;
+    }
+    .Modal {
+        width: 40vw;
+        height:30vw;
+        padding:0vw;
+    }
+    
+    .Modal h2{
+        font-size: 2.10vw;
+    }
+    
+    .Modal p{
+        font-size: 1.42vw;
+    }
+    
+    .Modal button {
+        padding: 1vw 5vw;
+        font-size: 1.42vw;
+    }
+}
+
+/* Extra Large Screens and TVs (1201px and above) */
+@media (min-width: 1201px) {
+    .ContactUs{
+        display: flex;
+        justify-content:space-evenly;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+    .DetailsBorder{
+        width: 46vw;
+        padding-bottom: 0vw;
+        margin-bottom: 0vw;
+    }
+    .DetailsBorderTitle h1{
+        font-size: 2.20vw;
+        padding-top: 0vw;
+        padding-bottom: 0vw;
+        padding-left:0vw;
+        padding-right: 0vw;
+    }
+    .DetailsBorderInfo img{
+        width: 5vw;
+    }
+    .DetailsBorderInfo h2{
+        font-size: 1.316vw;
+    }
+    .DetailsBorderInfo p{
+        font-size: 0.94vw;
+    }
+    .DetailsRow1{
+        display: flex;
+    }
+    .DetailsRow1Sec1{
+        width: 21vw;
+        padding-top: 3vw;
+        padding-bottom: 0vw;
+    }
+    .line1{
+        border: 1px solid black;
+        height:15.5vw;
+        margin-top: 1vw;
+    }
+    .DetailsRow1Sec2{
+        width: 21vw; 
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    .DetailsRow2{
+        display: flex;
+    }
+    .DetailsRow2Sec1{
+        width: 21vw; 
+        padding-top: 2vw;
+        padding-bottom: 0vw;
+        border-bottom: none;
+    }
+    .line2{
+        border: 1px solid black;
+        height:15.5vw;
+        margin-top: 1vw;
+        margin-bottom: 0vw;
+    }
+    .DetailsRow2Sec2{
+        width: 21vw; 
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        border-bottom: none;
+    }
+    .FormBorder{
+        width: 45vw;
+    }
+    .FormRow4{
+        padding-bottom: 0%;
+        margin-bottom: 0vw;
+        display: inline-block;
+        height:3.5vw;
+    }
+    .FormRow4Sec1{
+        height:3.5vw;
+    }
+    .FormBorderTitle h1{
+        font-size: 2.20vw;
+    }
+    .FormRow1,.FormRow2{
+        margin-top: 2.5vw;
+    }
+    .FormRow1Sec1 input, .FormRow1Sec2 input, .FormRow2Sec1 input, .FormRow2Sec2 input{
+        padding:0.5vw;
+        font-size: 0.94vw;
+        width:18vw;
+    }
+    .FormRow3, .FormRow4{
+        margin-top:2.5vw;
+    }
+    .FormRow3Sec1 textarea{
+        padding: 2vw;
+        font-size: 0.94vw;
+        width: 36.5vw;
+        height:10vw;
+    }
+    .FormRow4Sec1 button{
+        font-size: 0.94vw;
+        padding: 1vw 3vw;
+    }
+    .Modal {
+        width: 30vw;
+        height:15vw;
+        padding:0vw;
+    }
+    
+    .Modal h2{
+        font-size: 1.316vw;
+    }
+    
+    .Modal p{
+        font-size: 0.94vw;
+    }
+    
+    .Modal button {
+        padding: 1vw 5vw;
+        font-size: 0.94vw;
+    }
+}

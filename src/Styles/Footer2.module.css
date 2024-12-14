@@ -1,0 +1,202 @@
+.Footer{
+    overflow: hidden;
+    background-color: bisque;
+}
+
+.FooterContent{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.FooterContent h1{
+    font-size: 3.8vw;
+    color: #E57373;
+}
+
+.FooterContent p, .FooterContent a{
+    font-size: 3.2vw;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 3vw;
+}
+
+.FooterLink2 a:hover, .FooterLink3 a:hover{
+    color: #ff6347;
+}
+
+.FooterLink1, .FooterLink2, .FooterLink3{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+.FooterLink1{
+    width: 27vw;
+}
+
+.FooterLink2{
+    width: 23vw;
+}
+
+.FooterLink3{
+    width: 22vw;
+}
+
+.Copyright p{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-size: 2.6vw;
+    margin-bottom: 0;
+    padding-left: 2vw;
+    padding-top: 1vw;
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    
+    .FooterContent{
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+    
+    .FooterContent h1{
+        font-size: 2.74vw;
+    }
+    
+    .FooterContent p, .FooterContent a{
+        font-size: 2vw;
+    }
+
+    .FooterLink2 a, .FooterLink3 a{
+        margin-bottom: 2vw;
+    }
+
+    .FooterLink1{
+        width: 20vw;
+    }
+    
+    .FooterLink2{
+        width: 16vw;
+    }
+    
+    .FooterLink3{
+        width: 16vw;
+    }
+    
+    .Copyright p{
+        font-size: 1.6vw;
+        padding-top: 0.5vw;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .FooterContent{
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+    
+    .FooterContent h1{
+        font-size: 1.9vw;
+    }
+    
+    .FooterContent p, .FooterContent a{
+        font-size: 1.6vw;
+    }
+
+    .FooterLink2 a, .FooterLink3 a{
+        margin-bottom: 1.4vw;
+    }
+
+    .FooterLink1{
+        width: 13vw;
+    }
+    
+    .FooterLink2{
+        width: 12vw;
+    }
+    
+    .FooterLink3{
+        width: 12vw;
+    }
+    
+    .Copyright p{
+        font-size: 1.2vw;
+        padding-top: 0.5vw;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .FooterContent{
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+    
+    .FooterContent h1{
+        font-size: 1.45vw;
+    }
+    
+    .FooterContent p, .FooterContent a{
+        font-size: 1.17vw;
+    }
+
+    .FooterLink2 a, .FooterLink3 a{
+        margin-bottom: 1vw;
+    }
+
+    .FooterLink1{
+        width: 11vw;
+    }
+    
+    .FooterLink2{
+        width: 11vw;
+    }
+    
+    .FooterLink3{
+        width: 11vw;
+    }
+
+    .Copyright p{
+        font-size: 1.10vw;
+        padding-top: 0.5vw;
+    }
+}
+
+@media (min-width: 1201px) {
+    .FooterContent{
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+    
+    .FooterContent h1{
+        font-size: 1.3vw;
+    }
+    
+    .FooterContent p, .FooterContent a{
+        font-size:  0.9vw;
+    }
+
+    .FooterLink2 a, .FooterLink3 a{
+        margin-bottom: 1vw;
+    }
+
+    .FooterLink1{
+        width: 11vw;
+    }
+    
+    .FooterLink2{
+        width: 11vw;
+    }
+    
+    .FooterLink3{
+        width: 11vw;
+    }
+    
+    .Copyright p{
+        font-size: 0.8vw;
+        padding-top: 0.5vw;
+    }
+}
